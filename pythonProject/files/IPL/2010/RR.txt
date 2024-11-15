@@ -1,0 +1,251 @@
+BATTERS
+Swapnil Asnodkar
+Swapnil Asnodkar
+Batter
+
+Age:
+25y 363d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+Faiz Fazal
+Faiz Fazal
+Opening Batter
+
+Age:
+24y 201d
+Batting:
+Left hand Bat
+Bowling:
+Right arm Medium
+AJ Finch headshot
+Aaron Finch
+Top order Batter
+
+Age:
+23y 130d
+Batting:
+Right hand Bat
+Bowling:
+Slow Left arm Orthodox
+Abhishek Jhunjhunwala
+Abhishek Jhunjhunwala
+Batter
+
+Age:
+27y 116d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+Michael Lumb player page headshot cutout, 2021
+Michael Lumb
+Top order Batter
+
+Age:
+30y 43d
+Batting:
+Left hand Bat
+Bowling:
+Right arm Medium
+Naman Ojha player page headshot cutout, 2021
+Naman Ojha
+†
+Wicketkeeper Batter
+
+Age:
+26y 250d
+Batting:
+Right hand Bat
+Amit Gajanan Paunikar
+Amit Paunikar
+†
+Wicketkeeper Batter
+
+Age:
+21y 343d
+Batting:
+Right hand Bat
+Adam Voges player page headshot cutout, 2021
+Adam Voges
+Top order Batter
+
+Age:
+30y 174d
+Batting:
+Right hand Bat
+Bowling:
+Slow Left arm Orthodox
+Damien Martyn player page headshot cutout, 2021
+Damien Martyn
+Withdrawn
+Top order Batter
+
+Age:
+38y 157d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium
+Graeme Smith player page headshot cutout, 2021
+Graeme Smith
+Withdrawn
+Opening Batter
+
+Age:
+29y 54d
+Batting:
+Left hand Bat
+Bowling:
+Right arm Offbreak
+ALLROUNDERS
+Johan Botha player page headshot cutout, 2021
+Johan Botha
+Allrounder
+
+Age:
+27y 329d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+Sumit Narwal profile picture 
+Sumit Narwal
+Allrounder
+
+Age:
+27y 345d
+Batting:
+Left hand Bat
+Bowling:
+Right arm Medium
+Yusuf Pathan player page headshot cutout, 2021
+Yusuf Pathan
+Allrounder
+
+Age:
+27y 130d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+AS Raut
+Abhishek Raut
+Allrounder
+
+Age:
+23y 24d
+Batting:
+Right hand Bat
+Bowling:
+Legbreak Googly
+Shrikant Wagh
+Shrikant Wagh
+Allrounder
+
+Age:
+21y 169d
+Batting:
+Left hand Bat
+Bowling:
+Left arm Medium fast
+Dimitri Mascarenhas player page headshot cutout, 2021
+Dimitri Mascarenhas
+Withdrawn
+Allrounder
+
+Age:
+32y 148d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Fast medium
+BOWLERS
+Shane Warne player page headshot cutout, 2021
+Shane Warne
+(c)
+Bowler
+
+Age:
+40y 195d
+Batting:
+Right hand Bat
+Bowling:
+Legbreak Googly
+Kamran Khan
+Kamran Khan
+Bowler
+
+Age:
+19y 17d
+Batting:
+Left hand Bat
+Bowling:
+Left arm Medium fast
+M Morkel headshot
+Morne Morkel
+Bowler
+
+Age:
+25y 172d
+Batting:
+Left hand Bat
+Bowling:
+Right arm Fast
+Munaf Patel player page headshot cutout, 2021
+Munaf Patel
+Bowler
+
+Age:
+26y 258d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium fast
+Amit Singh portrait
+Amit Singh
+Bowler
+
+Age:
+28y 279d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium fast
+Shaun Tait player page headshot cutout, 2021
+Shaun Tait
+Bowler
+
+Age:
+27y 33d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Fast
+Siddharth Trivedi portrait
+Siddharth Trivedi
+Bowler
+
+Age:
+27y 204d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium
+Syed Quadri, player portrait
+Syed Quadri
+Age:
+28y 115d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+Amit Uniyal, Portrait
+Amit Uniyal
+Age:
+28y 126d
+Batting:
+Left hand Bat
+Bowling:
+Left arm Medium

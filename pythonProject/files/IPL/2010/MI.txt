@@ -1,0 +1,238 @@
+BATTERS
+SR Tendulkar headshot
+Sachin Tendulkar
+(c)
+Top order Batter
+
+Age:
+36y 338d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak, Legbreak Googly
+S Dhawan headshot
+Shikhar Dhawan
+Opening Batter
+
+Age:
+24y 113d
+Batting:
+Left hand Bat
+Bowling:
+Right arm Offbreak
+Chandan Madan
+Chandan Madan
+†
+Wicketkeeper
+
+Age:
+27y 164d
+Batting:
+Right hand Bat
+AT Rayudu headshot
+Ambati Rayudu
+Middle order Batter
+
+Age:
+24y 186d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+Aditya Tare portrait
+Aditya Tare
+†
+Wicketkeeper
+
+Age:
+22y 141d
+Batting:
+Right hand Bat
+Saurabh Tiwary player page headshot cutout, 2021
+Saurabh Tiwary
+Top order Batter
+
+Age:
+20y 88d
+Batting:
+Left hand Bat
+ALLROUNDERS
+Dwayne Bravo player page headshot cutout, 2021
+Dwayne Bravo
+Allrounder
+
+Age:
+26y 172d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium
+JP Duminy headshot
+Jean-Paul Duminy
+Batting Allrounder
+
+Age:
+25y 348d
+Batting:
+Left hand Bat
+Bowling:
+Right arm Offbreak
+Sanath Jayasuriya player page headshot cutout, 2021
+Sanath Jayasuriya
+Allrounder
+
+Age:
+40y 271d
+Batting:
+Left hand Bat
+Bowling:
+Slow Left arm Orthodox
+Ryan McLaren player page headshot cutout, 2021
+Ryan McLaren
+Allrounder
+
+Age:
+27y 47d
+Batting:
+Left hand Bat
+Bowling:
+Right arm Medium fast
+Graham Napier
+Graham Napier
+Bowling Allrounder
+
+Age:
+30y 81d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium
+Abhishek Nayar, player portrait
+Abhishek Nayar
+Allrounder
+
+Age:
+26y 171d
+Batting:
+Left hand Bat
+Bowling:
+Right arm Medium
+Kieron Pollard player page headshot cutout, 2021
+Kieron Pollard
+Batting Allrounder
+
+Age:
+22y 320d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium
+R Sathish, player portrait
+Rajagopal Sathish
+Allrounder
+
+Age:
+29y 73d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium
+BOWLERS
+Abu Nechim Ahmed
+Abu Nechim
+Bowler
+
+Age:
+21y 143d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium fast
+Dilhara Fernando player page headshot cutout, 2021
+Dilhara Fernando
+Bowler
+
+Age:
+30y 252d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Fast medium
+Harbhajan Singh player page headshot cutout, 2021
+Harbhajan Singh
+Bowler
+
+Age:
+29y 268d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+Zaheer Khan player page headshot cutout, 2021
+Zaheer Khan
+Bowler
+
+Age:
+31y 171d
+Batting:
+Right hand Bat
+Bowling:
+Left arm Fast medium
+DS Kulkarni headshot
+Dhawal Kulkarni
+Bowler
+
+Age:
+21y 108d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium
+Ishan Malhotra player portrait
+Ishan Malhotra
+Bowler
+
+Age:
+25y 309d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium fast
+SL Malinga headshot
+Lasith Malinga
+Bowler
+
+Age:
+26y 212d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Fast
+AG Murtaza
+Ali Murtaza
+Bowler
+
+Age:
+20y 86d
+Batting:
+Left hand Bat
+Bowling:
+Slow Left arm Orthodox
+R Shukla
+Rahul Shukla
+Bowler
+
+Age:
+19y 212d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium
+KS Sahabuddin player portrait
+Syed Shahabuddin
+Age:
+30y 270d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium fast

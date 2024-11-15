@@ -1,0 +1,247 @@
+BATTERS
+Virender Sehwag player page headshot cutout, 2021
+Virender Sehwag
+(c)
+Top order Batter
+
+Age:
+30y 188d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+AB de Villiers headshot
+AB de Villiers
+†
+Wicketkeeper Batter
+
+Age:
+25y 68d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium
+Gautam Gambhir player page headshot cutout, 2021
+Gautam Gambhir
+Top order Batter
+
+Age:
+27y 194d
+Batting:
+Left hand Bat
+Bowling:
+Legbreak
+Dinesh Karthik player page headshot cutout, 2021
+Dinesh Karthik
+†
+Wicketkeeper Batter
+
+Age:
+23y 329d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+Owais Shah player page headshot cutout, 2021
+Owais Shah
+Batter
+
+Age:
+30y 186d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+DA Warner headshot
+David Warner
+Opening Batter
+
+Age:
+22y 181d
+Batting:
+Left hand Bat
+Bowling:
+Legbreak
+TP Yadav
+Tejashwi Yadav
+Middle order Batter
+
+Age:
+19y 168d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Bowler
+Manoj Tiwary player page headshot cutout, 2021
+Manoj Tiwary
+Withdrawn
+Batter
+
+Age:
+23y 163d
+Batting:
+Right hand Bat
+Bowling:
+Legbreak Googly
+ALLROUNDERS
+Rajat Bhatia, profile
+Rajat Bhatia
+Allrounder
+
+Age:
+29y 186d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium fast
+Paul Collingwood player page headshot cutout, 2021
+Paul Collingwood
+Allrounder
+
+Age:
+32y 335d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium
+Tillakaratne Dilshan,  player page headshot cutout, 2021
+Tillakaratne Dilshan
+Allrounder
+
+Age:
+32y 194d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+Farveez Maharoof player page headshot cutout, 2021
+Farveez Maharoof
+Allrounder
+
+Age:
+24y 231d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Fast medium
+Yo Mahesh player profile
+Yo Mahesh
+Allrounder
+
+Age:
+21y 126d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium fast
+Mithun Manhas portrait
+Mithun Manhas
+Allrounder
+
+Age:
+29y 196d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+Andrew McDonald
+Andrew McDonald
+Allrounder
+
+Age:
+27y 325d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Fast medium
+Y Nagar
+Yogesh Nagar
+Allrounder
+
+Age:
+19y 110d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Offbreak
+DL Vettori headshot
+Daniel Vettori
+Allrounder
+
+Age:
+30y 89d
+Batting:
+Left hand Bat
+Bowling:
+Slow Left arm Orthodox
+BOWLERS
+Glenn McGrath player page headshot cutout, 2021
+Glenn McGrath
+Bowler
+
+Age:
+39y 76d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Fast medium
+Amit Mishra player page headshot cutout, 2021
+Amit Mishra
+Bowler
+
+Age:
+26y 153d
+Batting:
+Right hand Bat
+Bowling:
+Legbreak
+Dirk Nannes
+Dirk Nannes
+Bowler
+
+Age:
+32y 345d
+Batting:
+Right hand Bat
+Bowling:
+Left arm Fast
+Ashish Nehra player page headshot cutout, 2021
+Ashish Nehra
+Bowler
+
+Age:
+29y 362d
+Batting:
+Right hand Bat
+Bowling:
+Left arm Medium fast
+AM Salvi
+Aavishkar Salvi
+Bowler
+
+Age:
+27y 188d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Medium
+Pradeep Sangwan looks on
+Pradeep Sangwan
+Bowler
+
+Age:
+18y 172d
+Batting:
+Right hand Bat
+Bowling:
+Left arm Medium
+UT Yadav headshot
+Umesh Yadav
+Bowler
+
+Age:
+21y 183d
+Batting:
+Right hand Bat
+Bowling:
+Right arm Fast
