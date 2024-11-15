@@ -1,7 +1,5 @@
-:#Write a program to print binary numbers from 1 to 10 using Queue. Use Queue class implemented in main tutorial.
-#yo bro lets go
+#Write a program to print binary numbers from 1 to 10 using Queue. Use Queue class implemented in main tutorial.
 # Binary sequence should look like:- 1,10,11,100,101,110,111,1000,1001,1010
-#change is constant i love it
 from _collections import deque
 class Binary:
     def __init__(self):
