@@ -1,3 +1,5 @@
+import numpy as np
+import pandas as pd
 class playerExtractor:
     def __init__(self):
         self.players = {}
@@ -45,7 +47,8 @@ class playerExtractor:
                 elif "†" in line or "â€" in line or "Batter" in line or "Allrounder" in line:
                     continue
                 elif line:  # Only add if the line is not empty
-                    self.players[line] = [player_type,[],None,None,None,None]
+                    if line not in self.players:
+                        self.players[line] = [player_type,[],None,None,None,None]
                     self.players[line][1].append(year)
                     player_name = line
                     try:
@@ -72,9 +75,9 @@ class playerExtractor:
                         pass
 
 if __name__ == "__main__":
-    file_path = [r"E:\\Python Folders\\pythonProject\\files\\IPL\\2008\\RCB_2008.txt",
-                 r"E:\\Python Folders\\pythonProject\\files\\IPL\\2009\\RCB_2009.txt",
-                 r"E:\\Python Folders\\pythonProject\\files\\IPL\\2010\\RCB.txt"]
+    file_path = [r"E:\\Cricket TicTacToe Game\\2008\\RCB_2008.txt",
+                 r"E:\\Cricket TicTacToe Game\\2009\\RCB_2009.txt",
+                 r"E:\\Cricket TicTacToe Game\\2010\\RCB.txt"]
     rcb = playerExtractor()
     for idx,file in enumerate(file_path):
         rcb.read_file(file,2008+idx)
