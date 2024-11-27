@@ -1,8 +1,7 @@
-import numpy as np
 import pandas as pd
 class playerExtractor:
     def __init__(self):
-        self.players = {}
+        self.players = {}# playerType,YearsPlayed,Captain,WicketKeeper,Batting Style,Bowling Style
 
     def skip_line(self, f, num_lines=1):
         """Skip a specified number of lines in the file."""
@@ -30,7 +29,7 @@ class playerExtractor:
             for line in f:
                 line = line.strip()
                 if line == "Wicketkeeper Batter":
-                    self.players[player_name][3] = "Wicketkeeper"
+                    self.players[player_name][3] = True
                 elif line == "Age:":
                     self.skip_line(f)
                 elif line == "Batting:":
@@ -47,10 +46,13 @@ class playerExtractor:
                 elif "†" in line or "â€" in line or "Batter" in line or "Allrounder" in line:
                     continue
                 elif line:  # Only add if the line is not empty
-                    if line not in self.players:
-                        self.players[line] = [player_type,[],None,None,None,None]
-                    self.players[line][1].append(year)
                     player_name = line
+                    if player_name not in self.players:
+                        self.players[player_name] = [player_type,None,False,False,None,None]
+                    if self.players[player_name][1] is None:
+                        self.players[player_name][1] = str(year)
+                    else:
+                        self.players[player_name][1] += ","+str(year)
                     try:
                         line = next(f, None)
                         if line and line.strip() == "Withdrawn":
@@ -65,7 +67,7 @@ class playerExtractor:
                                 self.skip_line(f)
                                 self.skip_line(f)
                         elif line and line.startswith("("):
-                            self.players[player_name][2]="Captain"
+                            self.players[player_name][2]= True
                             line = next(f).strip()
                             if line == "Wicketkeeper Batter":
                                 self.players[player_name][3] = "Wicketkeeper"
@@ -74,13 +76,22 @@ class playerExtractor:
                     except StopIteration:
                         pass
 
+    def create_file(self):  # creating a csv file
+        # playerType, YearsPlayed, Captain, WicketKeeper, Batting Style, Bowling Style
+        player_df = pd.DataFrame.from_dict(
+            self.players,
+            orient='index',
+            columns=['PlayerType', 'YearsPlayed', 'Captain', 'WicketKeeper', 'BattingStyle', 'BowlingStyle']
+        )
+        player_df.to_csv("E:\\Cricket TicTacToe Game\\RCB_Players.csv",)
+        print(player_df)
+
 if __name__ == "__main__":
     file_path = [r"E:\\Cricket TicTacToe Game\\2008\\RCB_2008.txt",
                  r"E:\\Cricket TicTacToe Game\\2009\\RCB_2009.txt",
                  r"E:\\Cricket TicTacToe Game\\2010\\RCB.txt"]
-    rcb = playerExtractor()
+    team = playerExtractor()
     for idx,file in enumerate(file_path):
-        rcb.read_file(file,2008+idx)
-    for player in rcb.players:
-        print(player,rcb.players[player])
-    print(len(rcb.players))
+        team.read_file(file,2008+idx)
+    team.create_file()
+    print(len(team.players))

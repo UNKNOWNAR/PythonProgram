@@ -1,0 +1,52 @@
+,PlayerType,YearsPlayed,Captain,WicketKeeper,BattingStyle,BowlingStyle
+Rahul Dravid,BATTERS,"2008,2009,2010",True,False,Right hand Bat,Right arm Offbreak
+Mark Boucher,BATTERS,"2008,2009,2010",False,True,Right hand Bat,Right arm Medium
+Shivnarine Chanderpaul,BATTERS,2008,False,False,Left hand Bat,Legbreak
+Bharat Chipli,BATTERS,"2008,2009",False,False,Right hand Bat,Right arm Medium
+Shreevats Goswami,BATTERS,"2008,2009,2010",False,True,Left hand Bat,
+Wasim Jaffer,BATTERS,"2008,2009",False,False,Right hand Bat,Right arm Offbreak
+Virat Kohli,BATTERS,"2008,2009,2010",False,False,Right hand Bat,Right arm Medium
+Misbah-ul-Haq,BATTERS,2008,False,False,Right hand Bat,Legbreak
+Ross Taylor,BATTERS,"2008,2009,2010",False,False,Right hand Bat,Right arm Offbreak
+Cameron White,BATTERS,"2008,2009,2010",False,False,Right hand Bat,Legbreak Googly
+Sunil Joshi,ALLROUNDERS,"2008,2009",False,False,Left hand Bat,Slow Left arm Orthodox
+Jacques Kallis,ALLROUNDERS,"2008,2009,2010",False,False,Right hand Bat,Right arm Fast medium
+Ashley Noffke,ALLROUNDERS,2008,False,False,Right hand Bat,Right arm Fast medium
+Abdur Razzak,BOWLERS,2008,False,False,Left hand Bat,Slow Left arm Orthodox
+Balachandra Akhil,BOWLERS,"2008,2009,2010",False,False,Right hand Bat,Right arm Medium fast
+KP Appanna,BOWLERS,"2008,2009,2010",False,False,Right hand Bat,Slow Left arm Orthodox
+Zaheer Khan,BOWLERS,2008,False,False,Right hand Bat,Left arm Fast medium
+Praveen Kumar,BOWLERS,"2008,2009,2010",False,False,Right hand Bat,Right arm Medium
+Anil Kumble,BOWLERS,"2008,2009,2010",True,False,Right hand Bat,Legbreak Googly
+Dale Steyn,BOWLERS,"2008,2009,2010",False,False,Right hand Bat,Right arm Fast
+Vinay Kumar,BOWLERS,"2008,2009,2010",False,False,Right hand Bat,Right arm Medium
+Neravanda Aiyappa,BOWLERS,2008,False,False,Right hand Bat,Right arm Medium
+Jagadeesh Arunkumar,BOWLERS,"2008,2009",False,False,Right hand Bat,Right arm Offbreak
+Devraj Patil,BOWLERS,"2008,2009",False,False,Right hand Bat,
+Rajesh Bishnoi,BATTERS,2009,False,False,Right hand Bat,Right arm Medium fast
+Chidhambaram Gautam,BATTERS,2009,False,True,Right hand Bat,
+Ishank Jaggi,BATTERS,2009,False,False,Right hand Bat,Legbreak Googly
+Manish Pandey,BATTERS,"2009,2010",False,False,Right hand Bat,Right arm Medium
+Robin Uthappa,BATTERS,"2009,2010",False,False,Right hand Bat,Right arm Medium
+Saurabh Bandekar,BATTERS,2009,False,False,Right hand Bat,Right arm Medium fast
+Raju Bhatkal,BATTERS,2009,False,False,Right hand Bat,Right arm Medium
+Gaurav Dhiman,BATTERS,2009,False,False,Right hand Bat,Right arm Fast medium
+Kedar Jadhav,BATTERS,2009,False,False,Right hand Bat,Right arm Offbreak
+Jesse Ryder,BATTERS,2009,False,False,Left hand Bat,Right arm Medium
+Roelof van der Merwe,BATTERS,"2009,2010",False,False,Right hand Bat,Slow Left arm Orthodox
+Sreenath Aravind,BOWLERS,2009,False,False,Left hand Bat,Left arm Medium fast
+Nathan Bracken,BOWLERS,2009,False,False,Right hand Bat,Left arm Fast medium
+Bhuvneshwar Kumar,BOWLERS,"2009,2010",False,False,Right hand Bat,Right arm Medium
+Abhimanyu Mithun,BOWLERS,"2009,2010",False,False,Right hand Bat,Right arm Medium
+Pankaj Singh,BOWLERS,2009,False,False,Right hand Bat,Right arm Medium fast
+Karn Sharma,BOWLERS,2009,False,False,Left hand Bat,Legbreak Googly
+Rangaraj Suthesh,BOWLERS,2009,False,False,Left hand Bat,Left arm Medium
+Dillon du Preez,BOWLERS,"2009,2010",False,False,Right hand Bat,Right arm Fast medium
+Udit Patel,BOWLERS,2009,False,False,Right hand Bat,Right arm Offbreak
+Jitendra Patil,BOWLERS,2009,False,False,Right hand Bat,Left arm Medium
+RK Sabharwal,BOWLERS,2009,False,False,Right hand Bat,
+Tinu Yohannan,BOWLERS,2009,False,False,Right hand Bat,Right arm Medium fast
+Eoin Morgan,BATTERS,2010,False,False,Left hand Bat,Right arm Medium
+Kevin Pietersen,BATTERS,2010,False,False,Right hand Bat,Right arm Offbreak
+Steven Smith,BATTERS,2010,False,False,Right hand Bat,Legbreak Googly
+Sridharan Sriram,BATTERS,2010,False,False,Left hand Bat,Slow Left arm Orthodox
