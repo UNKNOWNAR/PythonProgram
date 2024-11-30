@@ -1,8 +1,10 @@
 import pandas as pd
 import sqlite3
 class playerExtractor:
-    def __init__(self):
+    def __init__(self,team_name=""):
         self.players = {}# playerType,YearsPlayed,Captain,WicketKeeper,Batting Style,Bowling Style
+        # or stores objects of different teams
+        self.team_name = team_name
         idx = 0
 
     def skip_line(self, f, num_lines=1):
@@ -43,8 +45,9 @@ class playerExtractor:
             self.skip_line(f)  # Skip the next line after identifying the type
             return "BOWLERS"
 
-    def read_file(self, file_path,player_team,year):
+    def read_file(self, file_path,year):
         with open(file_path, "r") as f:
+            player_team = self.team_name
             player_name = ""
             player_type = self.player_type(f.readline().strip(),f)
             for line in f:
@@ -96,12 +99,12 @@ class playerExtractor:
                     except StopIteration:
                         pass
 
-    def  create_database(self,team,db_path="E:\\Cricket TicTacToe Game\\IPL_player_database.db"):
+    def  create_database(self,db_path="E:\\Cricket TicTacToe Game\\IPL_Player_Database.db"):
         """Create an SQLite database and insert player data."""
         conn = sqlite3.connect(db_path)
         cursor = conn.cursor()
         cursor.execute(f"""
-            CREATE TABLE IF NOT EXISTS {team} (
+            CREATE TABLE IF NOT EXISTS {self.team_name} (
                 PlayerName TEXT PRIMARY KEY,
                 PlayerType TEXT,
                 YearsPlayed TEXT,
@@ -114,7 +117,7 @@ class playerExtractor:
         # Insert data
         for player_name, details in self.players.items():
             cursor.execute(f"""
-                    INSERT OR REPLACE INTO {team} (PlayerName, PlayerType, YearsPlayed, WicketKeeper, BattingStyle, BowlingStyle, Team)
+                    INSERT OR REPLACE INTO {self.team_name} (PlayerName, PlayerType, YearsPlayed, WicketKeeper, BattingStyle, BowlingStyle, Team)
                     VALUES (?, ?, ?, ?, ?, ?, ?)
                     """, (player_name, details[0], details[1], int(details[2]), details[3], details[4], details[5]))
         conn.commit()
@@ -136,14 +139,11 @@ if __name__ == "__main__":
                     2009 : ["CSK","DC","DCG","KKR","MI","PBKS","RCB","RR"],
                     2010 : ["CSK","DC","DCG","KKR","MI","PBKS","RCB","RR"],
     }
-    file_path = [r"E:\\Cricket TicTacToe Game\\2008\\RCB.txt",
-                 r"E:\\Cricket TicTacToe Game\\2009\\RCB.txt",
-                 r"E:\\Cricket TicTacToe Game\\2010\\RCB.txt"]
-    team = playerExtractor()
-    team_name = team.extract_team(file_path[0])
-    for idx,file in enumerate(file_path):
-        year = team.extract_year(file)
-        team.read_file(file,team_name,year)
-    team.create_database(team_name)
-    team.create_file()
-    print(len(team.players))
+    ipl = playerExtractor()
+    for year,teams in team_and_year.items():
+        for team in teams:
+            file = rf"E:\\Cricket TicTacToe Game\\{year}\\{team}.txt"
+            ipl.players[team] = playerExtractor(team)
+            ipl.players[team].read_file(file,year)
+            ipl.players[team].create_database()
+    #ipl.create_file()
