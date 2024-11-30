@@ -130,8 +130,7 @@ class playerExtractor:
             orient='index',
             columns=['PlayerType', 'YearsPlayed', 'WicketKeeper', 'BattingStyle', 'BowlingStyle','Team']
         )
-        player_df.to_csv("E:\\Cricket TicTacToe Game\\RCB_Players.csv",)
-        print(player_df)
+        player_df.to_csv(f"E:\\Cricket TicTacToe Game\\{self.team_name}.csv",)
 
 if __name__ == "__main__":
     team_and_year = {
@@ -143,7 +142,11 @@ if __name__ == "__main__":
     for year,teams in team_and_year.items():
         for team in teams:
             file = rf"E:\\Cricket TicTacToe Game\\{year}\\{team}.txt"
-            ipl.players[team] = playerExtractor(team)
+            if team not in ipl.players:
+                ipl.players[team] = playerExtractor(team)
             ipl.players[team].read_file(file,year)
             ipl.players[team].create_database()
-    #ipl.create_file()
+    for year,teams in team_and_year.items():
+        for team in teams:
+            ipl.players[team].create_file()
+    print("DataBase and CSV file created")
