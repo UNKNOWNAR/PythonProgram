@@ -88,8 +88,13 @@ class playerExtractor:
                             next(f)
                             line = next(f)
                             if line.strip()=="Bowling:":
-                                self.skip_line(f)
-                                self.skip_line(f)
+                                line = next(f)
+                                line = next(f)
+                                if line:
+                                    line = line.strip()
+                                    temp = self.player_type(line, f)
+                                    if temp:
+                                        player_type = temp
                         elif line and line.startswith("("):
                             line = next(f).strip()
                             if line == "Wicketkeeper Batter":
@@ -134,9 +139,10 @@ class playerExtractor:
 
 if __name__ == "__main__":
     team_and_year = {
-                    2008 : ["CSK","DC","DCG","KKR","MI","PBKS","RCB","RR"],
-                    2009 : ["CSK","DC","DCG","KKR","MI","PBKS","RCB","RR"],
-                    2010 : ["CSK","DC","DCG","KKR","MI","PBKS","RCB","RR"],
+                    2011: ["CSK", "DC", "DCG", "KKR", "KTK" , "MI", "PBKS", "PWI" , "RCB", "RR"],
+                    2010: ["CSK", "DC", "DCG", "KKR", "MI", "PBKS", "RCB", "RR"],
+                    2009: ["CSK", "DC", "DCG", "KKR", "MI", "PBKS", "RCB", "RR"],
+                    2008: ["CSK", "DC", "DCG", "KKR", "MI", "PBKS", "RCB", "RR"],
     }
     ipl = playerExtractor()
     for year,teams in team_and_year.items():
